@@ -2,12 +2,12 @@ package com.company;
 
 import com.company.API.APIBuilder;
 import com.company.API.TopologyAPI;
-import com.company.Topology.Components.Nmos.M1;
-import com.company.Topology.Components.Nmos.Nmos;
-import com.company.Topology.Components.Prototypes.Component;
-import com.company.Topology.Components.Resistor.Resistance;
-import com.company.Topology.Components.Resistor.Resistor;
-import com.company.Topology.Topology;
+import com.company.API.Topology.Components.Nmos.M1;
+import com.company.API.Topology.Components.Nmos.Nmos;
+import com.company.API.Topology.Components.Prototypes.Component;
+import com.company.API.Topology.Components.Resistor.Resistance;
+import com.company.API.Topology.Components.Resistor.Resistor;
+import com.company.API.Topology.Topology;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;

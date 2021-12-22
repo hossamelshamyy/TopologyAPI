@@ -1,11 +1,11 @@
 package com.company.API;
 
-import com.company.Topology.Components.Nmos.M1;
-import com.company.Topology.Components.Nmos.Nmos;
-import com.company.Topology.Components.Prototypes.Component;
-import com.company.Topology.Components.Resistor.Resistance;
-import com.company.Topology.Components.Resistor.Resistor;
-import com.company.Topology.Topology;
+import com.company.API.Topology.Components.Nmos.M1;
+import com.company.API.Topology.Components.Nmos.Nmos;
+import com.company.API.Topology.Components.Prototypes.Component;
+import com.company.API.Topology.Components.Resistor.Resistance;
+import com.company.API.Topology.Components.Resistor.Resistor;
+import com.company.API.Topology.Topology;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;

@@ -1,8 +1,8 @@
-package com.company.Topology.Components.Prototypes;
+package com.company.API.Topology.Components.Prototypes;
 
 
-import com.company.Topology.Components.Nmos.Nmos;
-import com.company.Topology.Components.Resistor.Resistor;
+import com.company.API.Topology.Components.Nmos.Nmos;
+import com.company.API.Topology.Components.Resistor.Resistor;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonSubTypes;

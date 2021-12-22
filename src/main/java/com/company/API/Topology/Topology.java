@@ -1,6 +1,6 @@
-package com.company.Topology;
+package com.company.API.Topology;
 
-import com.company.Topology.Components.Prototypes.Component;
+import com.company.API.Topology.Components.Prototypes.Component;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 import java.util.ArrayList;

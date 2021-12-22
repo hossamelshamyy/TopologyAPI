@@ -1,6 +1,6 @@
-package com.company.Topology.Components.Resistor;
+package com.company.API.Topology.Components.Resistor;
 
-import com.company.Topology.Components.Prototypes.Component;
+import com.company.API.Topology.Components.Prototypes.Component;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;

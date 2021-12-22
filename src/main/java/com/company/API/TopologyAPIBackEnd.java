@@ -1,7 +1,7 @@
 package com.company.API;
 
-import com.company.Topology.Components.Prototypes.Component;
-import com.company.Topology.Topology;
+import com.company.API.Topology.Components.Prototypes.Component;
+import com.company.API.Topology.Topology;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;

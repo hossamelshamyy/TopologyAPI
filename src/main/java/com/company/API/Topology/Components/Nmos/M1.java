@@ -1,9 +1,9 @@
-package com.company.Topology.Components.Resistor;
+package com.company.API.Topology.Components.Nmos;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Resistance {
+public class M1 {
     @JsonProperty("default")
     private double Default;
 
@@ -14,7 +14,7 @@ public class Resistance {
     private double max;
 
     @JsonCreator
-    public Resistance(@JsonProperty("default") double aDefault, @JsonProperty("min") double min, @JsonProperty("max") double max) {
+    public M1(@JsonProperty("default") double aDefault, @JsonProperty("min") double min, @JsonProperty("max") double max) {
         Default = aDefault;
         this.min = min;
         this.max = max;
@@ -46,12 +46,12 @@ public class Resistance {
 
     @Override
     public String toString() {
-        return ", Resistance = { " + "Default = " + Default + ", Min = " + min + ", Max = " + max + " } ";
+        return ", M(1) = { " + "Default = " + Default + ", Min = " + min + ", Max = " + max + " } ";
     }
 
     @Override
     public boolean equals(Object obj) {
-        Resistance r = (Resistance) obj;
+        M1 r = (M1) obj;
         return Default == r.Default && min == r.min && max == r.max;
     }
 }
